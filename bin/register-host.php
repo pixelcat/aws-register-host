@@ -3,7 +3,7 @@
 
 namespace Dployr\Bin;
 
-require 'vendor/autoload.php';
+require_once '../vendor/autoload.php';
 
 use Aws\DynamoDb\Marshaler;
 use Aws\Sdk;
