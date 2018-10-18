@@ -1,0 +1,26 @@
+{
+  "name": "pixelcat/aws-register-host",
+  "type": "library",
+  "description": "Registers a deployment / service in DynamoDB.",
+  "authors": [
+    {
+      "name": "Aaron Stewart",
+      "email": "aaron@dployr.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dployr\\": "src/"
+    }
+  },
+  "require": {
+    "aws/aws-sdk-php": "^3.69"
+  },
+  "bin": [
+    "bin/register-host",
+    "bin/register-host.php"
+  ],
+  "config": {
+    "classmap-authoritative": true
+  }
+}
