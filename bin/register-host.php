@@ -10,7 +10,6 @@ use Aws\Sdk;
 use Dployr\ARH\AwsRegisterHost;
 
 $sdk = new Sdk([
-  'endpoint' => 'http://localhost:8000',
   'region' => 'us-east-1',
   'version' => 'latest',
 ]);
